@@ -18,7 +18,7 @@ public class PlayerController : MonoBehaviour
     Rigidbody playerRigidbody;
     Vector3 movement;
 
-    void Awake()
+    void Start()
     {
         playerRigidbody = GetComponent<Rigidbody>();
         _score = 0;
