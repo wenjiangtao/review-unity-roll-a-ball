@@ -3,7 +3,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 
-public class UIManager : MonoBehaviour {
+public class UIManager : MonoBehaviour 
+{
 
     public Text winText;
     public Text scoreText;
